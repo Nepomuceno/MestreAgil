@@ -9,7 +9,17 @@ namespace MestreAgil.Corporate.Controllers
     public class HomeController : Controller
     {
         [Route("")]
-        public ActionResult Index()
+        public ActionResult Principal()
+        {
+            return View();
+        }
+        [Route("Funcionalidades")]
+        public ActionResult Funcionalidades()
+        {
+            return View();
+        }
+        [Route("Contato")]
+        public ActionResult Contato()
         {
             return View();
         }
