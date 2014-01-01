@@ -6,7 +6,6 @@ using System.Web.Mvc;
 
 namespace MestreAgil.Corporate.Controllers
 {
-    [RoutePrefix("")]
     public class HomeController : Controller
     {
         [Route("")]
